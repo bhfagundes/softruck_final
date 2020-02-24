@@ -1,0 +1,59 @@
+{
+  "name": "nodejs-api-showcase",
+  "version": "1.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "coverage": "nyc --reporter html --reporter text mocha test --recursive",
+    "debug": "nodemon server.js",
+    "start": "node server.js",
+    "test": "mocha test --recursive --timeout 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eldimious/nodejs-api-showcase.git"
+  },
+  "author": "Dimos Botsaris <botsaris.d@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eldimious/nodejs-api-showcase/issues"
+  },
+  "homepage": "https://github.com/eldimious/nodejs-api-showcase#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "express-validator": "^4.2.1",
+    "express-winston": "2.6.0",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.13",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.0",
+    "nyc": "^13.1.0",
+    "socket.io": "^2.2.0",
+    "swagger-ui-express": "^4.0.1",
+    "throw-http-errors": "^2.0.0",
+    "winston": "2.4.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.18.9",
+    "sinon": "^4.0.0",
+    "supertest": "^3.0.0"
+  }
+}
