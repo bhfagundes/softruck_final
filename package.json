@@ -30,7 +30,7 @@
     "express-validator": "^4.2.1",
     "express-winston": "2.6.0",
     "helmet": "^3.9.0",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "moment": "^2.18.1",
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.13",
